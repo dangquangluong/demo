@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+
+}
+
+.clear{
+    clear: both;
+}
+
+.text-trang{
+    color: #fff !important;
+}
+
+#header{
+    height: 47px;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+#nav .nav-phu{
+    list-style-type: none ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#nav>li{
+    display: inline-block;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav>li>a {
+    color: #fff;
+}
+
+#nav li a {
+    text-decoration: none;
+    padding: 0 24px;
+    line-height: 47px;
+    display: inline-block;
+}
+
+#nav> li:hover> a {
+    color: #000;
+    background-color: #ccc;
+}
+
+#nav .nav-phu{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+}
+
+#nav li:hover .nav-phu{
+    display: block;
+}
+
+#nav .nav-phu a{
+    color: #000;
+}
+
+#nav .nav-phu li:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+#header #nav li i {
+    font-size: 14px;
+}
+
+#header .ti-search {
+    float: right;
+    color: #fff;
+    padding: 13.5px 24px;
+    font-size: 20px;
+}
+
+#header .ti-search:hover {
+    background-color: red;
+    cursor: pointer;
+}
+
+#slider{
+    width: 100%;
+    height: 510px;
+    margin-top: 46px ;
+    background: url(https://scontent.fhan14-2.fna.fbcdn.net/v/t39.30808-6/272310380_647410629906860_27177490402230266_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=e3f864&_nc_ohc=Qa-I7_tmoHMAX-llaz1&_nc_ht=scontent.fhan14-2.fna&oh=00_AT95u9oU9Bca7u4Ffw-tAjistDM8opeLurHIaybR021UnQ&oe=6222586C) top center / 100% no-repeat;
+}
+
+.slider-boss{
+    color: #fff;
+    text-align: center;
+    padding: 444px 0;
+    margin: 20px 0 ;
+}
+
+#content{
+    margin: 0 275px;
+}
+
+#content .content-boss{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.sub-phu{
+    padding: 7px;
+    opacity: 0.6;
+}
+
+#content .sub-con{
+    text-align: justify;
+}
+
+
+#content .content-jav{
+    float: left;
+    text-align: center;
+    padding: 7px;
+    margin-left: 1px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+
+#content .name-jav {
+    padding: 20px 0;
+    color: #f44336;
+}
+
+#content .anh-jav{
+    width: 250px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+#tour {
+    background-color: #000;
+    padding-bottom: 50px;
+}
+
+#tour .content-boss{
+    padding: 35px;
+    text-align: center;
+}
+
+#tour .tour-boss {
+    margin: 0 275px;
+}
+
+.sub-boss {
+    padding: 10px;
+}
+
+.ban-ve {
+    background-color: #fff;
+    margin: 0 0 50px 0;
+}
+
+#tour li{
+    color: #757575;
+    padding: 10px;
+    border-bottom: 2px solid #ddd;
+    list-style-type: none;
+}
+
+#tour .het-ve{
+    padding: 6px;
+    margin-left: 15px;
+    background-color: #f44336;
+    color: #fff;
+}
+
+#tour .het-ve-2{
+    float: right;
+    border-radius: 50%;
+    background-color: #000;
+    padding: 3px 8px;
+}
+
+.tour-diep-vien-007{
+    margin: 0 275px;
+    background-color: #000;
+}
+
+
+.tour-phu{
+    background-color: #fff;
+    padding: 1px 16px;
+}
+
+.anh-dat-nuoc:hover {
+    opacity: 0.7;
+}
+
+.anh-dat-nuoc {
+    width: 250px;
+    cursor: pointer;
+    display: block;
+}
+
+.tour-mua-ve {
+    width: 250px;
+    float: left;
+    margin: 0 7.5px;
+}
+
+.text-tour-2 {
+    margin:15px 0;
+}
+
+.text-tour-3 {
+    margin:15px 0;
+}
+
+.mua-ve{
+    margin-bottom: 16px;
+    border: none;
+    padding: 8px 16px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.mua-ve:hover{
+    color: #000;
+    background-color: #ccc;
+}
+
+#footer{
+    padding: 64px 16px;
+    text-align: center;
+}
+
+#footer .footer-icon a{
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+#footer .footer-icon a:hover{
+    opacity: 0.6;
+}
+
+#footer .footer-sub{
+    margin: 15px 0 0 17px;
+    color: #000;
+    opacity: 0.6;
+}
+
+#footer .footer-sub a{
+    color: #000;
+}
+
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.modal .modal-boss{
+    background-color: #fff;
+    width: 1000px;
+    min-height: 200px;
+    position: relative;
+    max-width: calc(100% - 32px);
+    animation: chuyenDong ease .5s;
+}
+
+.modal-dau {
+    padding: 32px 16px;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #fff;
+}
+
+.modal-close {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+
+.modal-close:hover {
+    color: #000;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.icon-bag{
+    font-size: 20px;
+}
+
+
+.modal-than{
+    padding: 0 16px;
+}
+
+.modal-than-con{
+    display: block;
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.modal-than-con-2{
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.modal-mua{
+    width: 100%;
+    background-color: #009688 ;
+    border: none;
+    margin: 16px 0;
+    padding: 16px;
+    color: #fff;
+}
+
+.modal-mua:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.modal-ket{
+    float: right;
+    margin: 15px 0;
+    padding: 0 16px;
+}
+
+.modal-ket a{
+    color: #2196F3;
+}
+
+.open{
+    display: flex;
+}
+
+
+.gioi-thieu-boss{
+    margin: 0 275px;
+    padding: 64px 16px;
+}
+
+.gioi-thieu-1{
+    padding: 32px 0;
+    display: flex;
+}
+
+.gioi-thieu-2{
+    font-size: 20px;
+    width: 49.99999%;
+}
+
+.sdt-gmail{
+    margin: 8px 0;
+}
+
+.thong-tin-boss{
+    width: 49.99999%;
+}
+
+.thong-tin-cb {
+    width: 49%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.thong-tin-cb-2{
+    width: 99%;
+    padding: 8px;
+    border: 1px solid #ccc;
+}
+
+.trum-1{
+    margin-bottom: 8px;
+}
+
+.nut-gui{
+    float: right;
+    padding: 8px 16px;
+    margin: 16px;
+    margin-right: 4px;
+    border: none;
+    color: #fff;
+    background-color: #000;
+}
+
+.nut-gui:hover{
+    background-color: #ccc;
+    color: #000;
+    cursor: pointer;
+}
+
+.background-map{
+    width: 100%;
+    height: 755px;
+    background: url(/asset/img/background/map.jpg) top center / 100% no-repeat;
+}
+
+@keyframes chuyenDong {
+    from {
+        opacity: 0;
+        transform: translateY(-140px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
