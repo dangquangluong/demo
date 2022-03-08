@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header{
     width: 100%;
     height: 50px;
@@ -60,4 +64,8 @@
     padding: 10px;
     color: #fff;
     background-color: #000;
+}
+
+.tra-loi{
+    margin: 15px;
 }
